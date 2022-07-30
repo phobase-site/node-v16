@@ -1,4 +1,4 @@
-import {Link} from "solid-app-router";
+import { Link } from "solid-app-router";
 
 const NotFound = () => {
   return (
@@ -13,6 +13,6 @@ const NotFound = () => {
       </p>
     </main>
   );
-}
+};
 
 export default NotFound;
