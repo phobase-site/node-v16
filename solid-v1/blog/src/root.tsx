@@ -1,7 +1,7 @@
 // @refresh reload
-import { Routes } from "solid-start/root";
-import { ErrorBoundary } from "solid-start/error-boundary";
-import { Suspense } from "solid-js";
+import {Routes} from "solid-start/root";
+import {ErrorBoundary} from "solid-start/error-boundary";
+import {Suspense} from "solid-js";
 import "./index.css";
 
 export default function Root() {
@@ -9,7 +9,7 @@ export default function Root() {
     <>
       <ErrorBoundary>
         <Suspense>
-          <Routes />
+          <Routes/>
         </Suspense>
       </ErrorBoundary>
     </>

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "blocks": [
+        {
+          "name": "Posts",
+          "inputs": [],
+          "views": [
+            {
+              "name": "Posts",
+              "viewId": "posts",
+              "columns": [
+                {
+                  "name": "Name",
+                  "type": "TEXT",
+                  "columnId": "name"
+                },
+                {
+                  "name": "Image URL",
+                  "type": "STORE",
+                  "columnId": "image-url"
+                },
+                {
+                  "name": "Category",
+                  "type": "SELECT",
+                  "columnId": "category"
+                },
+                {
+                  "name": "Poster name",
+                  "type": "TEXT",
+                  "columnId": "poster-name"
+                },
+                {
+                  "name": "Poster image URL",
+                  "type": "STORE",
+                  "columnId": "poster-image-url"
+                },
+                {
+                  "name": "Posted at",
+                  "type": "DATE_TIME",
+                  "columnId": "posted-at"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
