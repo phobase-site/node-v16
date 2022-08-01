@@ -37,7 +37,7 @@ const Home = () => {
 
   const getHeroPosts = createMemo((): Post[] => store.posts.slice(0, 2));
 
-  const getStandardPosts = createMemo((): Post[] => store.posts.slice(0, 2));
+  const getStandardPosts = createMemo((): Post[] => store.posts.slice(2));
 
   return (
     <div class="antialiased text-gray-800 dark:bg-black dark:text-gray-400">

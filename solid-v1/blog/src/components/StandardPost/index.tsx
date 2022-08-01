@@ -22,26 +22,17 @@ const StandardPost: Component<Props> = ({ post }) => {
         </a>
       </div>
       <div>
-        <a href="/category/personal-growth">
+        <a href="#">
           <span class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-emerald-700">
-            Personal Growth
+            {post.category}
           </span>
         </a>
       </div>
       <h2 class="mt-2 text-lg font-semibold tracking-normal text-brand-primary dark:text-white">
         <span class=" bg-gradient-to-r from-green-200 to-green-100 dark:from-purple-800 dark:to-purple-900 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px]">
-          10 Simple Practices That Will Help You Get 1% Better Every Day
+          {post.name}
         </span>
       </h2>
-      <div class="hidden">
-        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 line-clamp-3">
-          <a href="/post/10-simple-practices-that-will-help-you-get-1-better-every-day">
-            How do we become better every single day? We develop practices that
-            will help move us incrementally forward. Small steps, taken
-            consistently. This is the path to a good life.
-          </a>
-        </p>
-      </div>
       <div class="flex items-center mt-3 space-x-3 text-gray-500 dark:text-gray-400">
         <div class="flex items-center gap-3">
           <div class="relative flex-shrink-0 w-5 h-5">
@@ -56,7 +47,7 @@ const StandardPost: Component<Props> = ({ post }) => {
               />
             </span>
           </div>
-          <span class="text-sm">Erika Oliver</span>
+          <span class="text-sm">{post.posterName}</span>
         </div>
         <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
         <time class="text-sm" dateTime="2022-05-20T09:33:00Z">
