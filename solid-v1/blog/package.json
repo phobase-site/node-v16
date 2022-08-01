@@ -24,7 +24,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@phobase/client-core": "^1.0.2",
+    "@phobase/client-core": "^1.0.3",
     "@phobase/client-urql": "^1.0.2",
     "@phobase/site-config-core": "^1.0.1",
     "graphql": "^16.5.0",
