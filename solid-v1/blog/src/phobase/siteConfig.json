@@ -17,9 +17,9 @@
                   "columnId": "name"
                 },
                 {
-                  "name": "Image URL",
+                  "name": "Image",
                   "type": "STORE",
-                  "columnId": "image-url"
+                  "columnId": "image"
                 },
                 {
                   "name": "Category",
@@ -32,9 +32,9 @@
                   "columnId": "poster-name"
                 },
                 {
-                  "name": "Poster image URL",
+                  "name": "Poster image",
                   "type": "STORE",
-                  "columnId": "poster-image-url"
+                  "columnId": "poster-image"
                 },
                 {
                   "name": "Posted at",

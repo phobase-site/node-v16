@@ -16,13 +16,13 @@ site_config_schema:
               columns:
                 - name: Name
                   type: TEXT
-                - name: Image URL
+                - name: Image
                   type: STORE
                 - name: Category
                   type: SELECT
                 - name: Poster name
                   type: TEXT
-                - name: Poster image URL
+                - name: Poster image
                   type: STORE
                 - name: Posted at
                   type: DATE_TIME
