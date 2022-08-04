@@ -29,7 +29,13 @@ const Home = () => {
         return;
       }
 
-      let posts = data.readViewRows.map((row) => toPost(view.columns, row));
+      let posts = data.readViewRows.map((row) => {
+        let post = toPost(view.columns, row)
+
+        console.log('post', post, row, view.columns)
+
+        return post;
+      });
 
       setStore({ posts });
     }
