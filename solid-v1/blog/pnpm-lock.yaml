@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@phobase/client-core': ^1.0.2
+  '@phobase/client-core': ^1.0.4
   '@phobase/client-urql': ^1.0.2
   '@phobase/site-config-core': ^1.0.1
   '@urql/core': ^2.6.1
@@ -20,7 +20,7 @@ specifiers:
   vite: ^2.7.13
 
 dependencies:
-  '@phobase/client-core': 1.0.2
+  '@phobase/client-core': 1.0.4
   '@phobase/client-urql': 1.0.2_graphql@16.5.0
   '@phobase/site-config-core': 1.0.1
   '@urql/core': 2.6.1_graphql@16.5.0
@@ -1305,8 +1305,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@phobase/client-core/1.0.2:
-    resolution: {integrity: sha512-QBOIZ6zLvOwoGf4tVNivclMaJzRTeLE34RmKwf4LXuBShOl+nveTCmkgpBbAp5qnU6yuAKy3WzOfV1SRHwsK4A==}
+  /@phobase/client-core/1.0.4:
+    resolution: {integrity: sha512-KWGXaIHm+gHCSULooSzs6lCzdrEUlWizT074DrzceNzZND2StuuZ8VPZEHQ1wx/0S9MeOf9erEaMhuWSDPbVzw==}
     dev: false
 
   /@phobase/client-urql/1.0.2_graphql@16.5.0:
