@@ -1,12 +1,12 @@
 ---
 site_runtime: NODE_V16
-site_config_deployment_artifacts:
-  site_config_json: src/phobase/siteConfig.json
-  static_dir: dist
-site_config_routes:
+site_routes:
   static_route: "*"
   not_found_route: "/index.html"
-site_config_schema:
+site_version_deployment_artifacts:
+  site_version_artifact: src/phobase/siteVersion.json
+  static_dir: dist
+site_version_schema:
   pages:
     - name: Home
       blocks:

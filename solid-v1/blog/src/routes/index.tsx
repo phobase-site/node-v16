@@ -1,8 +1,8 @@
 import HeroPost from "~/components/HeroPost";
 import StandardPost from "~/components/StandardPost";
 import Post from "~/core/Post";
-import { HOME, POSTS, SITE_CONFIG } from "~/phobase/constant";
-import { getView } from "@phobase/site-config-core";
+import { HOME, POSTS, SITE_VERSION } from "~/phobase/constant";
+import { getView } from "@phobase/site-version-core";
 import { RemoteViewRowResolver } from "@phobase/client-core";
 import { getUrqlClient } from "~/phobase/getUrqlClient";
 import { createEffect, createMemo, For } from "solid-js";
@@ -17,7 +17,7 @@ const Home = () => {
   );
 
   createEffect(async () => {
-    let view = getView(SITE_CONFIG, HOME, POSTS, POSTS);
+    let view = getView(SITE_VERSION, HOME, POSTS, POSTS);
 
     if (view) {
       view.viewId;

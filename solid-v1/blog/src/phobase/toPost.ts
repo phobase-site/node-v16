@@ -5,7 +5,7 @@ import {
   getSelect,
   getStore,
   getValue,
-} from "@phobase/site-config-core";
+} from "@phobase/site-version-core";
 import {
   CATEGORY,
   IMAGE,

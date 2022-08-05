@@ -1,5 +1,5 @@
-import siteConfigJson from "./siteConfig.json";
-import { SiteConfig } from "@phobase/site-config-core";
+import siteVersionJson from "./siteVersion.json";
+import { SiteVersion } from "@phobase/site-version-core";
 
 export const HOME = "Home";
 export const POSTS = "Posts";
@@ -11,4 +11,4 @@ export const POSTER_NAME = "Poster name";
 export const POSTER_IMAGE = "Poster image";
 export const POSTED_AT = "Posted at";
 
-export const SITE_CONFIG = siteConfigJson as SiteConfig;
+export const SITE_VERSION = siteVersionJson as SiteVersion;
