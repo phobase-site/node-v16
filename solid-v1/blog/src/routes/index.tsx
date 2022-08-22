@@ -13,7 +13,7 @@ const Home = () => {
   let [store, setStore] = createStore<{ posts: Post[] }>({ posts: [] });
 
   let viewRowResolver = new RemoteViewRowResolver(
-    getUrqlClient("https://www.phobase.com/api/view/query")
+    getUrqlClient("https://phobase.com/api/view/query")
   );
 
   createEffect(async () => {
@@ -31,8 +31,6 @@ const Home = () => {
 
       let posts = data.readViewRows.map((row) => {
         let post = toPost(view.columns, row)
-
-        console.log('post', post, row, view.columns)
 
         return post;
       });
