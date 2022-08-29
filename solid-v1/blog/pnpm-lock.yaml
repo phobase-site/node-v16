@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@phobase/client-core': ^1.0.4
   '@phobase/client-urql': ^1.0.2
-  '@phobase/site-version-core': ^1.0.1
+  '@phobase/site-version-core': ^1.0.2
   '@urql/core': ^2.6.1
   '@urql/exchange-multipart-fetch': ^0.1.14
   autoprefixer: ^10.4.2
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@phobase/client-core': 1.0.4
   '@phobase/client-urql': 1.0.2_graphql@16.5.0
-  '@phobase/site-version-core': 1.0.1
+  '@phobase/site-version-core': 1.0.2
   '@urql/core': 2.6.1_graphql@16.5.0
   '@urql/exchange-multipart-fetch': 0.1.14_graphql@16.5.0
   graphql: 16.5.0
@@ -1320,8 +1320,8 @@ packages:
       - graphql
     dev: false
 
-  /@phobase/site-version-core/1.0.1:
-    resolution: {integrity: sha512-3OiJSSYTVEKrUDtRjU8RrFOTsLQnQUpjNnfjT+0M4PQFApUIfL/UZfL3QdROBMJ6nyJkLBnP0EjcEYoX1ktzLA==}
+  /@phobase/site-version-core/1.0.2:
+    resolution: {integrity: sha512-eQVa99WEZopt9+/q/4Bcqqvk4Bb+Zfv6CsSXVD0JiGSTj2IgRMzuz5ZeeApA+YW1cqOmhzKXtfDpDWIF9204pA==}
     dev: false
 
   /@polka/url/1.0.0-next.21:
