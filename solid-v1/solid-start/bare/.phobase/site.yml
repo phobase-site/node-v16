@@ -1,10 +1,18 @@
 ---
 site_runtime: NODE_V16
-site_config_deployment_artifacts:
-  site_config_json: src/siteConfig.json
-  static_dir: dist
-site_config_routes:
-  static_route: "*"
-  not_found_route: "/index.html"
-site_config_schema:
+site_deployment:
+  artifacts:
+    site_config_file: src/siteConfig.json
+    static_dir: dist
+site_proxy:
+  error_routes:
+    - type: NOT_FOUND
+      route: "/index.html"
+  routes:
+    - type: STATIC
+      prefix: ""
+site_config:
+  classes: []
+  files: []
+  components: []
   pages: []
